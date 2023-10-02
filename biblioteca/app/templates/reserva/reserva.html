@@ -40,15 +40,15 @@
   </nav>
 
   <div class="container mt-5">
-    <h2 class="mb-4">Formulário de Empréstimo</h2>
+    <h2 class="mb-4">Formulário de empréstimo</h2>
     <form action="/reserva/" method="post">
       {% csrf_token %}
       <div class="form-group">
-          <label for="data">Data Empréstimo:</label>
+          <label for="data">Data de empréstimo:</label>
           <input type="date" class="form-control" id="data" name="data">
       </div>
       <div class="form-group">
-        <label for="data">Data Devolução:</label>
+        <label for="data">Data para devolução:</label>
         <input type="date" class="form-control" id="data" name="data2">
     </div>
       <div class="form-group">
